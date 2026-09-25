@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango – Vše o králi tropického ovoce | Průvodce a zajímavosti</title>
+    <meta name="description" content="Objevte fascinující svět manga: původ, oblíbené odrůdy, zdraví prospěšné látky a tipy na konzumaci. Vyzkoušejte nutriční kalkulačku a interaktivní kvíz.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥭</text></svg>">
+</head>
+<body>
+
+    <!-- Záhlaví stránky a hlavní navigace -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo" id="site-logo" style="cursor: pointer;" title="Tajemné logo manga">
+                <span class="logo-icon" aria-hidden="true">🥭</span>
+                <span class="logo-text">Svět Manga</span>
+            </div>
+            <nav class="main-nav" aria-label="Hlavní navigace">
+                <ul class="nav-list">
+                    <li><a href="#uvod">O mangu</a></li>
+                    <li><a href="#odrudy">Odrůdy</a></li>
+                    <li><a href="#zajimavosti">Zajímavosti</a></li>
+                    <li><a href="#kalkulacka">Kalkulačka</a></li>
+                    <li><a href="#kviz">Kvíz</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hlavní obsah stránky -->
+    <main>
+
+        <!-- Úvodní sekce (Hero) -->
+        <section id="uvod" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">Tropický poklad</span>
+                    <h1>Mango – Král tropického ovoce</h1>
+                    <p class="lead">
+                        Mango patří mezi nejoblíbenější a nejchutnější druhy ovoce na světě. 
+                        Vyznačuje se nezaměnitelnou sladkou chutí s jemně pryskyřičným tónem, 
+                        šťavnatou dužinou a bohatým obsahem vitamínů a antioxidantů.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#kalkulacka" class="btn btn-primary">Spočítat nutriční hodnoty</a>
+                        <a href="#odrudy" class="btn btn-secondary">Prozkoumat odrůdy</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="img/mango.jpg" id="hero-mango-img" alt="Čerstvé zralé mango nakrájené na kostičky na dřevěném prkénku" class="hero-img" width="800" height="600" fetchpriority="high" title="Klikněte na mango...">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekce s článkem a postranním panelem (Article + Aside) -->
+        <section class="info-section">
+            <div class="container layout-grid">
+                <article class="main-article">
+                    <h2>Původ a historie tohoto výjimečného plodu</h2>
+                    <p>
+                        Mango je plodem stromu <strong>mangovníku</strong> (latinsky <em>Mangifera indica</em>), 
+                        který pochází z jižní a jihovýchodní Asie. V Indii, kde je mango považováno za národní ovoce 
+                        a posvátný symbol lásky a prosperity, se pěstuje již více než 4 000 let.
+                    </p>
+                    <p>
+                        Díky perským a portugalským mořeplavcům se pěstování manga postupně rozšířilo do Afriky, 
+                        Brazílie a Karibiku. V současné době existují stovky různých kultivarů lišících se barvou slupky, 
+                        velikostí, tvarem i strukturou dužiny.
+                    </p>
+
+                    <h3>Jak správně krájet mango?</h3>
+                    <p>Vzhledem k velké a ploché pecce uvnitř plodu vyžaduje krájení správný postup:</p>
+                    <ol class="steps-list">
+                        <li>Postavte mango svisle na prkénko a seřízněte obě širší strany těsně kolem středové pecky.</li>
+                        <li>Na obou odříznutých půlkách dužiny nařízněte špičkou nože mřížku (pozor, abyste neprořízli slupku).</li>
+                        <li>Opatrně vytlačte spodek slupky směrem ven – vznikne oblíbený tvar „ježka“, ze kterého lze kostky snadno odkrojit nebo rovnou jíst.</li>
+                    </ol>
+
+                    <p>
+                        Chcete se o botanice mangovníku dozvědět ještě více detailů? Přečtěte si 
+                        <a href="https://cs.wikipedia.org/wiki/Mango" target="_blank" rel="noopener noreferrer" class="text-link">článek o mangu na české Wikipedii</a>.
+                    </p>
+                </article>
+
+                <aside class="sidebar-card">
+                    <h3>💡 Jak vybrat zralé mango?</h3>
+                    <p>Barva slupky není spolehlivým ukazatelem zralosti, protože některé odrůdy zůstávají zelené i zcela zralé.</p>
+                    <ul class="tips-list">
+                        <li><strong>Hmat:</strong> Zralé mango je na lehký stisk prstem mírně poddajné, podobně jako zralé avokádo či broskev.</li>
+                        <li><strong>Vůně:</strong> U stopky by mělo příjemně a sladce vonět tropickým aroma.</li>
+                        <li><strong>Tip pro dozrání:</strong> Pokud koupíte tvrdší mango, vložte ho do papírového sáčku s jablkem nebo banánem při pokojové teplotě.</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Sekce s odrůdami -->
+        <section id="odrudy" class="varieties-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Nejznámější světové odrůdy</h2>
+                    <p>Ačkoliv v obchodech nejčastěji potkáte jen jeden či dva druhy, svět manga je neuvěřitelně pestrý.</p>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="variety-card">
+                        <h3>Alphonso</h3>
+                        <p class="variety-origin">Původ: Indie</p>
+                        <p>Často označováno za absolutního krále mang. Má sytě žlutooranžovou dužinu bez vláken, máslovou texturu a intenzivní sladkou vůni.</p>
+                    </article>
+
+                    <article class="variety-card">
+                        <h3>Tommy Atkins</h3>
+                        <p class="variety-origin">Původ: Florida, USA</p>
+                        <p>Nejčastější odrůda v evropských supermarketech. Vyniká krásnou červeno-zelenou slupkou, pevnou dužinou a dlouhou trvanlivostí při transportu.</p>
+                    </article>
+
+                    <article class="variety-card">
+                        <h3>Kent</h3>
+                        <p class="variety-origin">Původ: Florida, USA</p>
+                        <p>Velmi oblíbená odrůda pro svou šťavnatost, mimořádně sladkou chuť a téměř žádná nežádoucí vlákna. Slupka má tmavě zelenou barvu se žlutým nádechem.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interaktivní prvek 1: Rozbalení / skrytí zajímavostí (DOM manipulace) -->
+        <section id="zajimavosti" class="interactive-section">
+            <div class="container text-center">
+                <h2>Fascinující zajímavosti ze světa manga</h2>
+                <p>Věděli jste, že mango je příbuzné s pistáciemi nebo že stromy mangovníku mohou plodit i po stovkách let?</p>
+                
+                <div id="extra-facts" class="facts-container hidden">
+                    <div class="facts-grid">
+                        <div class="fact-item">
+                            <span class="fact-number">300+</span>
+                            <p>Mangovník se může dožít více než 300 let a stále plodit čerstvé ovoce.</p>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">100 %</span>
+                            <p>Jedno střední mango pokryje 100 % doporučené denní dávky vitamínu C pro dospělého člověka.</p>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">1 000+</span>
+                            <p>V Indii existuje přes 1 000 různých odrůd a kultivarů tohoto tropického ovoce.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toggle-wrapper">
+                    <button id="toggle-facts-btn" class="btn btn-primary" type="button" aria-expanded="false" aria-controls="extra-facts">
+                        Zobrazit další zajímavosti ▼
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interaktivní prvek 2: Interaktivní nutriční kalkulačka -->
+        <section id="kalkulacka" class="calculator-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Interaktivní nutriční kalkulačka</h2>
+                    <p>Zadejte hmotnost porce manga a spočítejte si přesné nutriční hodnoty v reálném čase.</p>
+                </div>
+
+                <div class="calculator-box">
+                    <div class="calculator-controls">
+                        <label for="mango-weight">Hmotnost dužiny manga (v gramech):</label>
+                        <div class="input-row">
+                            <input type="number" id="mango-weight" min="10" max="1000" step="10" value="150">
+                            <span class="unit">g</span>
+                        </div>
+
+                        <div class="preset-buttons">
+                            <span>Rychlá volba:</span>
+                            <button type="button" class="btn-preset" data-weight="100">100 g (základ)</button>
+                            <button type="button" class="btn-preset active" data-weight="150">150 g (1/2 plodu)</button>
+                            <button type="button" class="btn-preset" data-weight="250">250 g (celé mango)</button>
+                        </div>
+                    </div>
+
+                    <div class="nutrition-results">
+                        <div class="nutri-card">
+                            <span class="nutri-title">Energie</span>
+                            <span id="nutri-kcal" class="nutri-value">90</span>
+                            <span class="nutri-unit">kcal</span>
+                        </div>
+                        <div class="nutri-card">
+                            <span class="nutri-title">Sacharidy</span>
+                            <span id="nutri-carbs" class="nutri-value">22.5</span>
+                            <span class="nutri-unit">g</span>
+                        </div>
+                        <div class="nutri-card">
+                            <span class="nutri-title">Vláknina</span>
+                            <span id="nutri-fiber" class="nutri-value">2.4</span>
+                            <span class="nutri-unit">g</span>
+                        </div>
+                        <div class="nutri-card highlight">
+                            <span class="nutri-title">Vitamín C</span>
+                            <span id="nutri-vitc" class="nutri-value">54</span>
+                            <span class="nutri-unit">mg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interaktivní prvek 3: Kvíz o mangu -->
+        <section id="kviz" class="quiz-section">
+            <div class="container text-center">
+                <div class="section-heading">
+                    <h2>Otestujte své znalosti: Kvíz o mangu</h2>
+                    <p>Dokážete správně odpovědět na jednoduchou otázku ze světa tropického ovoce?</p>
+                </div>
+
+                <div class="quiz-card">
+                    <p class="quiz-question" id="quiz-question-text">
+                        <strong>Otázka:</strong> Ze které oblasti světa mango původně pochází a kde se pěstuje nejdéle?
+                    </p>
+                    <div class="quiz-options" role="group" aria-labelledby="quiz-question-text">
+                        <button type="button" class="btn-quiz" data-correct="false">A) Jižní Amerika (Amazonský prales)</button>
+                        <button type="button" class="btn-quiz" data-correct="true">B) Jižní Asie (Indie a Barma)</button>
+                        <button type="button" class="btn-quiz" data-correct="false">C) Jižní Evropa (Středomoří)</button>
+                    </div>
+                    <div id="quiz-feedback" class="quiz-feedback" aria-live="polite"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekce s formulářem (Formulářový prvek se zpracováním v JS) -->
+        <section id="kontakt" class="contact-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Zůstaňte v kontaktu</h2>
+                    <p>Máte dotaz nebo chcete dostávat tipy na čerstvé tropické recepty přímo do e-mailu?</p>
+                </div>
+
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="user-name">Vaše jméno:</label>
+                        <input type="text" id="user-name" name="name" placeholder="Např. Jan Novák" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-email">Váš e-mail:</label>
+                        <input type="email" id="user-email" name="email" placeholder="jan.novak@email.cz" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topic-select">Co vás zajímá nejvíce:</label>
+                        <select id="topic-select" name="topic">
+                            <option value="recepty">Tipy na recepty a smoothie</option>
+                            <option value="pestovani">Pěstování mangovníku doma</option>
+                            <option value="zralost">Jak poznat zralé plody</option>
+                            <option value="jine">Jiné téma</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-message">Poznámka nebo vzkaz (volitelné):</label>
+                        <textarea id="user-message" name="message" rows="3" placeholder="Napište nám svůj dotaz nebo oblíbený recept..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">Odeslat zprávu</button>
+                    <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Patička stránky (Footer) -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Svět Manga – Školní projekt HTML5, CSS a JavaScript.</p>
+            <p>Vytvořeno jako semestrální práce s důrazem na sémantiku, přístupnost a responzivitu.</p>
+            <p><a href="#uvod" class="back-to-top">Zpět na začátek stránky ↑</a></p>
+        </div>
+    </footer>
+
+    <!-- Easter Egg: Vyskakovací okno 'POLOŽTE TO MANGO' -->
+    <div id="easter-egg-modal" class="easter-egg-modal" role="dialog" aria-labelledby="easter-egg-title" aria-modal="true" aria-hidden="true" style="display: none;">
+        <div class="easter-egg-backdrop" id="easter-egg-backdrop"></div>
+        <div class="easter-egg-card">
+            <span class="easter-egg-icon" aria-hidden="true">🚨 🥭 🚨</span>
+            <h2 id="easter-egg-title" class="easter-egg-title">POLOŽTE TO MANGO!</h2>
+            <p class="easter-egg-desc">
+                Ruce nahoru a pomalu odstupte od stolu! Toto prémiové mango je pod přísnou ochranou tropické stráže.
+            </p>
+            <button type="button" id="close-easter-egg" class="btn btn-primary">
+                Rozumím, poslušně ho pokládám ✋🥭
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript pro obsluhu DOM a interaktivitu -->
+    <script src="script.js"></script>
+</body>
+</html>
